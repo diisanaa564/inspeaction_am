@@ -1,0 +1,7 @@
+#for yolov8
+train: C:/datasets/split_sampledv3/train/images
+val: C:/datasets/split_sampledv3/val/images
+test: C:/datasets/split_sampledv3/test/images
+
+nc: 4
+names: ["cracks", "over extrusion", "under extrusion", "warping"]
